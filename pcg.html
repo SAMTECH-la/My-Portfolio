@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="pcg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <h1>Samarth K</h1>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <section id="home">
+        <div class="content">
+            <div class="text">
+                <h1>Welcome to My Portfolio</h1>
+                <p><h3>Hi, I'm Sam , a first-year Computer Science student and a Web Developer.</h3></p>
+            </div>
+            <div class="image">
+                <img src="file 2.png" alt="Web Development Image">
+            </div>
+        </div>
+    </section>
+    
+    <div class="divider"></div>
+    
+    <section id="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="samarth.jpg" alt="About Me Image">
+            </div>
+            <div class="about-text" style="text-align: center;">
+                <h1>About Me</h1>
+                <p>
+                    I am currently pursuing my BTech in Computer Science and Engineering at Pimpri Chinchwad University. 
+                    I have a great passion for Competitive Programming and Web Development. 
+                    The way devices work, all connected by the internet and communicating with each other, is something that really interests me. 
+                    Being curious about how exactly the internet works makes me interested in DevOps. 
+                    By learning DevOps, I would understand fully about the internet infrastructure and details of how devices communicate with each other.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="divider"></div>
+    
+    <section id="skills" style="text-align: center;">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">C++</div>
+        </div>
+    </section>
+    
+    <div class="divider"></div>
+    
+    <section id="projects" style="text-align: center;">
+        <h1>Projects</h1>
+        <div class="project">
+            <h2>This is my First Project</h2>
+       
+    </section>
+    
+    <div class="divider"></div>
+    
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>Email: <a href="mailto:samarthkurdukar1@gmail.com">samarthkurdukar1@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="https://github.com/SAMTECH-la " target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="social-icons1">
+            <a href="https://instagram.com/samarth_kurdukar" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="social-icons2">
+            <a href="mailto:your.email@example.com" target="_blank" class="social-icon"><i class="fas fa-envelope"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <script src="pcg.js"></script>
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

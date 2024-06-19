@@ -1,0 +1,246 @@
+/* pcg.css */
+
+/* Reset styles */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(60, 142, 252); /* Set background color for the entire website */
+}
+
+/* Navigation styles */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(60, 142, 252); /* Keep the same background color as body */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left h1 {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.nav-right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right ul li {
+    margin: 0 15px;
+}
+
+.nav-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.nav-right ul li a:hover {
+    color:#0a17cf;
+}
+
+/* Divider styles */
+.divider {
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+}
+
+/* General section styles */
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+    background-color: #fff; /* Default section background color */
+    color: #333; /* Default text color */
+}
+
+/* Home section styles */
+#home {
+    background-color: rgb(28, 44, 60);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Ensure relative positioning for absolute child */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    max-width: 400px;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* About section styles */
+#about {
+    background-color: #e9ecef;
+    padding: 100px 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text {
+    max-width: 600px;
+    width: 100%;
+    text-align: right; /* Align text to the right */
+}
+
+.about-image {
+    max-width: 400px;
+    width: 100%;
+}
+
+.about-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Skills section styles */
+#skills {
+    background-color: #e9ecef;
+    padding: 100px 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+}
+
+.skill:hover {
+    background-color: #1b14e7;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #e9ecef;
+    padding: 100px 20px;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #fff;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons:hover {
+    color: #000; /* Change this color to whatever you prefer for hover effect */
+}
+.social-icons1 {
+    display: flex;
+}
+
+.social-icons1 {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons1:hover {
+    color: #4CAF50; /* Change this color to whatever you prefer for hover effect */
+}
+.social-icons2 {
+    display: flex;
+}
+
+.social-icons2 {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons2:hover {
+    color: #4CAF50; /* Change this color to whatever you prefer for hover effect */
+}
